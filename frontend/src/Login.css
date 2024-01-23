@@ -1,0 +1,135 @@
+body {
+    background-color: #8AAAE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+    width:100%;
+}
+
+.formHolder {
+    background-color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    padding: 25px 50px 50px 50px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.lobbyInput{
+    margin-top: 40px;
+    margin-bottom: -10px;
+    width: 400px;
+}
+
+button{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #d0dffc;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#inputPassword{
+    margin-left: 5px;
+}
+
+#inputEmail{
+    margin-left: 37px;
+}
+
+#inputNewPassword{
+    margin-left: 20px;
+}
+
+ul > li{
+    /* text-indent: -130px; */
+    margin-left: 70px;
+    text-align: left;
+}
+
+.voteul{
+    margin-top: 30px;
+}
+
+dialog{
+    position: absolute;
+    top: 40px;
+    /* background-color: green; */
+}
+
+.link2{
+    margin-left: 30px;
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+
+nav button{
+    font-size: 25px;
+    display: block; 
+    text-decoration: none;
+    color: black;
+    float: right;
+    border: 0px solid black;
+    padding:5px 15px 5px 15px;
+    margin:0px;
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: rgb(243, 242, 242);
+}
+
+.vr {
+    float: right;
+    border-left: 2px solid black;
+    margin-top: 1.5px;
+    height: 35px;
+    background-color: aqua;
+}
+
+.lobbyDiv {
+    min-width: 300px;
+}
+
+.profileDiv{
+    min-width: 300px;
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+.profileDiv p{
+    text-align: left;
+}
+
+.imageHolder{
+    margin-top: 15px;
+}
+
+.main > .formHolder > button{
+    font-size: 23px;
+}
+
+.main > .formHolder > input{
+    font-size: 23px;
+}
+
+.main > nav > button{
+    font-size: 30px;
+}
+
+.profileDiv .usernameP{
+    text-align: center;
+    font-size: 45px;
+}
