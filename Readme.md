@@ -4,7 +4,12 @@ A drawing party game which is based on object detection. The game has two game m
   - Cooperation: Everybody draws on the same photo, instead of different objects. This is for making memorable photos more interesting, together.
 
 ## Competitive mode
-![Title](/images/szavazas.png)
+<table>
+  <th>
+    <image src='/images/szavazas.png' width='49%'>
+    <image src='/images/szavazas.png' width='49%'>
+  </th>
+</table>
 
 ## Cooperative mode
 
