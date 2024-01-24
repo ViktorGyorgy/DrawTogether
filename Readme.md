@@ -6,8 +6,8 @@ A drawing party game which is based on object detection. The game has two game m
 ## Competitive mode
 <table>
   <th>
-    <image src='/images/szavazas.png' width='49%'>
-    <image src='/images/szavazas.png' width='49%'>
+    <image src='https://github.com/ViktorGyorgy/DrawTogether/blob/main/images/garden_gnomes.jpg' height="400px">
+    <image src='/images/word_for_garden_gnomes.png' height="400px">
   </th>
 </table>
 
@@ -16,8 +16,8 @@ A drawing party game which is based on object detection. The game has two game m
 # Functionalities
 - **Lobby**: players could create lobbies, the lobby creator can change the game mode.
 - **Drawing board**: Made with Canvas API for responsiveness, if users wanted they could upload a photo to the drawing board first, then do some finishing touches in the drawing board.
-- **Auth**: signup, login, forgot password (email sent with one-use link). The WebSocket (WS) was only created after the user signed in, the authentication for the WS connection was made during the handshake phase, a JWT token was saved in the user's cookies.
-- **Metrics**: some fun stats about the user.
+- **Auth**: sign-up, login,sign-out, forgot password (email sent with one-use link). The WebSocket (WS) was only created after the user signed in, the authentication for the WS connection was made during the handshake phase, a JWT token was saved in the user's cookies.
+- **Automatic login**: if someone has already logged in (and didn't sign out), the user skipped the log in page and went to the main page automatically
 - **Voting**: players could vote, also could see a zoomed in version of the image (made with Modals).
 
 
