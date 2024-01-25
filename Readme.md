@@ -6,8 +6,8 @@ A drawing party game which is based on object detection. The game has two game m
 ## Competitive mode
 <table>
   <th>
-    <image src='/images/garden_gnomes.jpg' height="370px">
-    <image src='/images/word_for_garden_gnomes.png' height="370px">
+    <image src='/images/garden_gnomes.jpg' height="350px">
+    <image src='/images/word_for_garden_gnomes.png' height="350px">
   </th>
 </table>
 
