@@ -4,14 +4,35 @@ A drawing party game which is based on object detection. The game has two game m
   - Cooperation: Everybody draws on the same photo, instead of different objects. This is for making memorable photos more interesting, together.
 
 ## Competitive mode
-<table>
-  <th>
-    <image src='/images/garden_gnomes.jpg' height="350px">
-    <image src='/images/word_for_garden_gnomes.png' height="350px">
-  </th>
-</table>
+
+### Uploading phase
+
+Every player uploads an image, and chooses a word that was detected on the image. 
+> <p>
+>    <image src='/images/garden_gnomes.jpg' height="350px"/>
+>    <image src='/images/word_for_garden_gnomes.png' height="350px"/>
+>  </p>
+> </table>
+> If the user uploads the photo with the gnomes, these are the objects that were recognized (for example 3 human faces).
+
+### Drawing phase
+In a game round every player gets the same image, with the chosen detected objects cut out from the original picture. 
+
+
+> <image/>
+> For example, from the image there are 3 human faces cut out. The player has to draw in the green box on the right, the drawing is then put back at the spots where the faces were cut out from.
+
+### Voting phase
+After every player has finished their drawing, the voing phase begins. Every player has to choose one of the other players' artwork, which is the most funny/creative. The player with the most votes gets a point.
+
+> 
+
+### Game end
+After every players' image-word combo was played through, the competitor with the most points is deemed victorious.
 
 ## Cooperative mode
+
+
 
 # Functionalities
 - **Lobby**: players could create lobbies, the lobby creator can change the game mode.
@@ -21,24 +42,16 @@ A drawing party game which is based on object detection. The game has two game m
 - **Voting**: players could vote, also could see a zoomed in version of the image (made with Modals).
 
 
-# Tech Stack
-## Node.js, Express.js MongoDB, JWT
-
-
-
-## Socket.io + React Router
-To make the WebSocket connection persistent, and modularize the different game states, made a Single Page Application with the help of React Router.
-
 
 
 # Setup
 ## Installing dependencies
-In backend folder run: ```npm i```.\
+In backend folder run: ```npm i```.  
 In frontend folder run: ```npm i```.
 
 ## Settings up backend/config/secrets.js
 
 
 # Run project
-In backend folder run: ```node index```.\
+In backend folder run: ```node index```.  
 In frontend folder run: ```npm run start```.
