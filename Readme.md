@@ -9,9 +9,9 @@ A drawing party game which is based on object detection. The game has two game m
 
 Every player uploads an image, and chooses a word that was detected on the image. 
 > <p>
->    <image src='/images/garden_gnomes.jpg' height="350px"/>
->    <image src='/images/word_for_garden_gnomes.png' height="350px"/>
->  </p>
+>    <image src='/images/garden_gnomes.jpg' height="355px"/>
+>    <image src='/images/word_for_garden_gnomes.png' height="355px"/>
+> </p>
 > </table>
 > If the user uploads the photo with the gnomes, these are the objects that were recognized (for example 3 human faces).
 
@@ -19,7 +19,7 @@ Every player uploads an image, and chooses a word that was detected on the image
 In a game round every player gets the same image, with the chosen detected objects cut out from the original picture. 
 
 
-> <image/>
+> <image src="/images/screenshots/competitive.png" width="800px"/><br>
 > For example, from the image there are 3 human faces cut out. The player has to draw in the green box on the right, the drawing is then put back at the spots where the faces were cut out from.
 
 ### Voting phase
@@ -32,7 +32,9 @@ After every players' image-word combo was played through, the competitor with th
 
 ## Cooperative mode
 
+I cooperative mode the loby creator uploads an image, and every player has to draw instead of a different object.
 
+> <img src=""
 
 # Functionalities
 - **Lobby**: players could create lobbies, the lobby creator can change the game mode.
@@ -50,7 +52,7 @@ In backend folder run: ```npm i```.
 In frontend folder run: ```npm i```.
 
 ## Settings up backend/config/secrets.js
-
+Set up a MongoDB database somwehere in the web,
 
 # Run project
 In backend folder run: ```node index```.  
