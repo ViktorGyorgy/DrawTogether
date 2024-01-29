@@ -68,9 +68,9 @@ In backend folder run: ```npm i```.
 In frontend folder run: ```npm i```.
 
 ## Settings up backend/config/secrets.js
-Write a random hash for passwords.
-Set up a MongoDB database (I had it in MongoDB Atlas), and insert the connect URI.
-Create Eden AI account, insert Bearer code. New accounts get enough funding for processing around 10_000 images.
+Write a random hash for passwords. <br>
+Set up a MongoDB database (I had it in MongoDB Atlas), and insert the connect URI. <br>
+Create Eden AI account, insert Bearer code. New accounts get enough funding for processing around 10_000 images. <br>
 
 # Run project
 In backend folder run: ```node index```.  
