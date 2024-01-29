@@ -39,7 +39,7 @@ After every players' image-word combo was played through, the competitor with th
 
 ## Cooperative mode
 
-In cooperative mode, the lobby creator uploads an image, and every player has to draw instead of a different object.
+In cooperative mode, the lobby creator uploads an image, and every player has to draw instead of a different object. The game is ended when the lobby creator presses the finish drawing button.
 
 > <img src="/images/screenshots/cooperative.png" width="800px">
 > Here the player has to draw something instead of a houseplant. The image is updated with the other players' drawing (someone drew a teddy bear in the mean time).
