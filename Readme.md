@@ -1,4 +1,4 @@
-# About the roject
+# About the project
 A drawing party game which is based on object detection. The game has two game modes:
   - Competitive: Players have to draw something as creative/funny as possible, the funniest wins.
   - Cooperation: Everybody draws on the same photo, instead of different objects. This is for making memorable photos more interesting, together.
