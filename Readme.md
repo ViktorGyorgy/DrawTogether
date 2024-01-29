@@ -1,13 +1,13 @@
 # About the project
 A drawing party game which is based on object detection. The game has two game modes:
-  - Competitive: Players have to draw something as creative/funny as possible, the funniest wins.
-  - Cooperative: Everybody draws on the same photo, instead of different objects. This is for making memorable photos more interesting, together.
+  - Competitive: Players must choose an image and replace certain objects on it with their own drawings. The creation voted as the funniest by other players wins.
+  - Cooperative: everybody draws on the same canvas instead of different environments. This game mode is for making memorable photos more interesting together.
 
 ## Competitive mode
 
 ### Uploading phase
 
-Every player uploads an image, and chooses a word that was detected on the image. 
+Every player uploads an image, and chooses a word from a list of entities detected on the image. 
 > <p>
 >    <image src='/images/garden_gnomes.jpg' height="355px"/>
 >    <image src='/images/word_for_garden_gnomes.png' height="355px"/>
@@ -20,18 +20,18 @@ In a game round every player gets the same image, with the chosen detected objec
 
 
 > <image src="/images/screenshots/competitive.png" width="800px"/><br>
-> For example, from the image there are 3 human faces cut out. The player has to draw in the green box on the right, the drawing is then put back at the spots where the faces were cut out from.
+> In this image there are 3 human faces cut out. The player has to create a drawing in the green box on the right, which will serve as a replacement for the human faces on the original image.
 
 ### Voting phase
 
-After every player has finished their drawing, the voting phase begins. Every player has to choose one of the other players' artwork, which is the most funny/creative. The player with the most votes gets a point.
+After every player has finished their drawing, the voting phase begins. Each player has to choose one of the other players' artwork, which is the most funny/creative. The player with the most votes gets a point.
 
 > <p>
 >   <img src="/images/screenshots/voting.png" height="280x">
 >   <img src="/images/screenshots/voting_modal.png" height="280px">
 > </p>
-> Left iamge: player can vote on one of the images which were modified by the other players. <br>
-> Right image: if the player clicks on one of the images, it will be opened in bigger size (to see the details better), with the help of a Modal.
+> First image: player can vote on one of the images which were modified by the other players. <br>
+> Second image: if the player clicks on one of the images, it will be opened in a bigger size (to see the details better), with the help of a Modal.
 
 
 ### Game end
@@ -39,7 +39,7 @@ After every players' image-word combo was played through, the competitor with th
 
 ## Cooperative mode
 
-In cooperative mode, the lobby creator uploads an image, and every player has to draw instead of a different object. The game is ended when the lobby creator presses the finish drawing button.
+In cooperative mode, the lobby creator uploads an image, and every player has to draw instead of a different object. The game is ended when the host presses the finish drawing button.
 
 > <img src="/images/screenshots/cooperative.png" width="800px">
 > Here the player has to draw something instead of a houseplant. The image is updated with the other players' drawing (someone drew a teddy bear in the mean time).
@@ -56,6 +56,7 @@ In cooperative mode, the lobby creator uploads an image, and every player has to
 - For real time communication used Socket.io, a WebSocket library with event driven design.
 - For real time update used React, and to modularize the game states created a single-page application with the help of React Router (also didn't have to reopen the WebSocket connection at every page reload).
 - For the drawing pad reused a simple HTML project that I did a year earlier.
+- Beacuse the drawings weren't noticeable on the resulting images, the entities were cut out from the original image.
 
 # What I would do different if had to create now
 - Would use hot reload instead of live reload, so that the states are not lost, and it is easier to test and design the webpage of it.
