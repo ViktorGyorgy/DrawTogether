@@ -30,12 +30,12 @@ After every player has finished their drawing, the voting phase begins. Each pla
 >   <img src="/images/screenshots/voting.png" height="275x">
 >   <img src="/images/screenshots/voting_modal.png" height="275px">
 > </p>
-> First image: player can vote on one of the images which were modified by the other players. <br>
-> Second image: if the player clicks on one of the images, it will be opened in a bigger size (to see the details better), with the help of a Modal.
+> First image: players can vote on one of the images which were modified by the other players. <br>
+> Second image: if the players click on one of the images, it will be opened in a bigger size (to see the details better), with the help of a Modal.
 
 
 ### Game end
-After every players' image-word combo was played through, the competitor with the most points is victorious.
+After every player's image-word combo was played through, the competitor with the most points is victorious.
 
 ## Cooperative mode
 
