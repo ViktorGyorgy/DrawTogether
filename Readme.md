@@ -24,7 +24,7 @@ In a game round, every player gets the same image, with the chosen detected obje
 
 ### Voting phase
 
-After every player has finished their drawing, the voting phase begins. Each player has to choose one of the other players' artwork, which is the most funny/creative. The player with the most votes gets a point.
+After every player has finished their drawing, the voting phase begins. Each player has to choose one of the other players' artwork, which they find funny/creative. The player with the most votes gets a point.
 
 > <p>
 >   <img src="/images/screenshots/voting.png" height="275x">
