@@ -47,8 +47,8 @@ In cooperative mode, the lobby creator uploads an image, and every player has to
 # Other functionalities
 - **Lobby**: in lobbies game type can be changed, the lobby creator can change it only.
 - **Drawing pad**: the drawing cursor's size can be changed using the mouse wheel. It is possible to upload a photo of a drawing and do the finishing touches in the game.
-- **Object detection**: for this purpose integrated Eden AI's API. 
-- **Authentication**: sign-up, login, sign-out, reset password. At password reset a single-use link is sent to their email address. If an user signed in in the last 24 hours, they will skip the login page.
+- **Object detection**: for this purpose integrated Eden AI's API.
+- **Authentication**: sign-up, login, sign-out, reset password. At password reset a single-use link is sent to their email address (integrated MailTrap API). If an user signed in in the last 24 hours, they will skip the login page.
 - **Authorization**: the user can see some stats about himself (how many games they played). Every player can see only their stats.
 
 # Decisions for the project
