@@ -27,8 +27,8 @@ In a game round, every player gets the same image, with the chosen detected obje
 After every player has finished their drawing, the voting phase begins. Each player has to choose one of the other players' artwork, which is the most funny/creative. The player with the most votes gets a point.
 
 > <p>
->   <img src="/images/screenshots/voting.png" height="280x">
->   <img src="/images/screenshots/voting_modal.png" height="280px">
+>   <img src="/images/screenshots/voting.png" height="275x">
+>   <img src="/images/screenshots/voting_modal.png" height="275px">
 > </p>
 > First image: player can vote on one of the images which were modified by the other players. <br>
 > Second image: if the player clicks on one of the images, it will be opened in a bigger size (to see the details better), with the help of a Modal.
