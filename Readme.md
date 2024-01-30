@@ -16,7 +16,7 @@ Every player uploads an image, and chooses a word from a list of entities detect
 > If the user uploads the photo with the gnomes, these are the objects that were recognized (for example 3 human faces).
 
 ### Drawing phase
-In a game round every player gets the same image, with the chosen detected objects cut out from the original picture. 
+In a game round, every player gets the same image, with the chosen detected objects cut out from the original picture. 
 
 
 > <image src="/images/screenshots/competitive.png" width="800px"/><br>
@@ -48,31 +48,10 @@ In cooperative mode, the lobby creator uploads an image, and every player has to
 - **Lobby**: in lobbies game type can be changed, the lobby creator can change it only.
 - **Drawing pad**: the drawing cursor's size can be changed using the mouse wheel. It is possible to upload a photo of a drawing and do the finishing touches in the game.
 - **Object detection**: for this purpose integrated Eden AI's API. 
-- **Authentication**: sign-up, login, sign-out, reset password. At password reset a single-use link is sent to their email address. If an user signed in in the last 24 hours, they will skip the login page.
+- **Authentication**: sign-up, login, sign-out, reset password. At password reset, a single-use link is sent to their email address. If an user signed in in the last 24 hours, they will skip the login page.
 - **Authorization**: the user can see some stats about himself (how many games they played). Every player can see only their stats.
 
 # Decisions for the project
 - Market research: checked if there are low-cost object detection APIs, and how good they are (if they recognize enough objects to have an interesting game).
 - For real time communication used Socket.io, a WebSocket library with event driven design.
 - For real time update used React, and to modularize the game states created a single-page application with the help of React Router (also didn't have to reopen the WebSocket connection at every page reload).
-- For the drawing pad reused a simple HTML project that I did a year earlier.
-- Beacuse the drawings weren't noticeable on the resulting images, the entities were cut out from the original image.
-
-# What I would do different if had to create now
-- Would use hot reload instead of live reload, so that the states are not lost, and it is easier to test and design the webpage of it.
-- Would set up a linter at the start of the project.
-- Different production profiles for better testability.
-
-# Setup
-## Installing dependencies
-In backend folder run: ```npm i```.  
-In frontend folder run: ```npm i```.
-
-## Settings up backend/config/secrets.js
-Write a random hash for passwords. <br>
-Set up a MongoDB database (I had it in MongoDB Atlas), and insert the connect URI. The database name can be changed in the config file.<br>
-Create Eden AI account, insert Bearer code. New accounts get enough funding for processing around 10_000 images. <br>
-
-# Run project
-In backend folder run: ```node index```.  
-In frontend folder run: ```npm run start```.
