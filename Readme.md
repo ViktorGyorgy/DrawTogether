@@ -58,7 +58,7 @@ In cooperative mode, the lobby creator uploads an image, and every player has to
 - For the drawing pad reused a simple HTML project that I did a year earlier.
 - Because the drawings weren't noticeable on the resulting images, the entities were cut out from the original image with white spaces.
 
-# What I would do different if had to create now
+# What I would do different if had to redo the project
 - Would use hot reload instead of live reload, so that the states are not lost, and it is easier to test and design the webpage of it.
 - Would set up a linter at the start of the project.
 - Different production profiles for better testability.
